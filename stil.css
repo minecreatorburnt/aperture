@@ -1,0 +1,584 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+main {
+  font-family: sans-serif;
+  background: white;
+  width: 100%;
+  height: 6256px;
+}
+main header {
+  width: 100%;
+  height: 90px;
+  background: black;
+}
+main header img {
+  width: 128px;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+main header .ulli {
+  display: flex;
+  align-items: center;
+  margin-top: -38px;
+  margin-left: 500px;
+}
+main header .ulli ul {
+  width: 750px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main header .ulli ul li a {
+  color: white;
+}
+main header .ulli ul li .aa {
+  color: black;
+  background: white;
+  padding: 12px 20px;
+  border-radius: 15px;
+}
+main .part1 {
+  width: 100%;
+  height: 716px;
+  background: url(./img/IMAGE.png) no-repeat center center/cover;
+}
+main .part1 .divid {
+  width: 100%;
+  height: 716px;
+  background: none;
+}
+main .part1 .divid .one {
+  text-align: center;
+  color: #C0C0C0;
+  font-size: 14px;
+  position: absolute;
+  top: 90vh;
+  left: 41.5%;
+}
+main .part1 .divid .h1 {
+  text-align: center;
+  font-size: 54px;
+  color: white;
+  position: absolute;
+  top: 94vh;
+  left: 35%;
+  font-weight: 400;
+}
+main .part1 .divid .two {
+  display: flex;
+  justify-content: center;
+  color: #C0C0C0;
+  font-size: 14px;
+  position: absolute;
+  top: 107vh;
+  left: 28%;
+}
+main .part1 .divid .two p {
+  width: 580px;
+  text-align: center;
+  line-height: 20px;
+}
+main .part1 .divid .angi {
+  position: absolute;
+  top: 122vh;
+  left: 77%;
+}
+main .part1 .divid .angi .angle {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main .part1 .divid .angi .angle div sup {
+  color: white;
+}
+main .part2 {
+  width: 100%;
+  height: 1558px;
+  background: black;
+}
+main .part2 h1 {
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 560px;
+  font-size: 40px;
+}
+main .part2 p {
+  color: #C0C0C0;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 495px;
+  font-size: 23px;
+}
+main .part2 .div1 {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 6.6%;
+}
+main .part2 .div1 .div div {
+  width: 1168px;
+  height: 1216px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .part2 .div1 .div div div {
+  width: 576px;
+  height: 600px;
+}
+main .part2 .div1 .div div div:nth-child(3), main .part2 .div1 .div div div:nth-child(4) {
+  margin-top: 16px;
+}
+main .part2 .div1 .div div div:nth-child(1) {
+  background: url(./img/img1.png) no-repeat center center/cover;
+}
+main .part2 .div1 .div div div:nth-child(2) {
+  background: url(./img/img2.png) no-repeat center center/cover;
+}
+main .part2 .div1 .div div div:nth-child(3) {
+  background: url(./img/img3.png) no-repeat center center/cover;
+}
+main .part2 .div1 .div div div:nth-child(4) {
+  background: url(./img/img4.png) no-repeat center center/cover;
+}
+main .part2 .div1 .div div div h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 40px;
+  color: white;
+  position: absolute;
+  margin-top: 400px;
+}
+main .part2 .div1 .div div div h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 40px;
+  color: white;
+  position: absolute;
+  margin-top: 370px;
+}
+main .part2 .div1 .div div div article {
+  color: #C0C0C0;
+  margin-left: 40px;
+  line-height: 23px;
+  position: absolute;
+  margin-top: 430px;
+}
+main .part2 .div1 .div div div .art1 {
+  width: 501px;
+}
+main .part2 .div1 .div div div .art2 {
+  width: 519px;
+}
+main .part2 .div1 .div div div .art3 {
+  width: 526px;
+  margin-top: 405px;
+}
+main .part2 .div1 .div div div .art4 {
+  width: 480px;
+  margin-top: 405px;
+}
+main .part2 .div1 .div div div .a1 {
+  width: 144px;
+  height: 50px;
+  font-size: 15px;
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-top: 510px;
+  position: absolute;
+}
+main .part2 .div1 .div div div .a1 .onisan {
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
+  background: black;
+}
+main .part3 {
+  width: 100%;
+  height: 600px;
+  background: url(./img/fuji.png) no-repeat center center/cover;
+}
+main .part3 h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  margin-left: 76.5%;
+  margin-top: 265px;
+}
+main .part3 p {
+  width: 298px;
+  font-size: 14px;
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 76.5%;
+  margin-top: 287px;
+  line-height: 20px;
+}
+main .part3 .angina {
+  position: absolute;
+  left: 77%;
+  margin-top: 540px;
+}
+main .part3 .angina .angles {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main .part3 .angina .angles div sup {
+  color: white;
+}
+main .part4 {
+  width: 100%;
+  height: 540px;
+}
+main .part4 .part44 {
+  position: absolute;
+  margin-left: 50%;
+  width: 50%;
+  height: 540px;
+  background: url(./img/back.png) center center/cover;
+}
+main .part4 .part44 .angina {
+  position: absolute;
+  margin-left: 53.5%;
+  margin-top: 480px;
+}
+main .part4 .part44 .angina .angles {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main .part4 .part44 .angina .angles div sup {
+  color: white;
+}
+main .part4 .party {
+  width: 50%;
+  height: 540px;
+  margin-left: 0;
+  background: black;
+}
+main .part4 .party h4 {
+  color: #C0C0C0;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+main .part4 .party h1 {
+  font-size: 28px;
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 225px;
+}
+main .part4 .party p {
+  color: white;
+  font-size: 14px;
+  width: 450px;
+  line-height: 20px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 275px;
+}
+main .part4 .party .ani {
+  width: 144px;
+  height: 50px;
+  font-size: 15px;
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-top: 510px;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 100px;
+}
+main .part4 .party .ani .onsan {
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
+  background: black;
+}
+main .part5 {
+  width: 100%;
+  height: 600px;
+  background: url(./img/leaf.png) center center/cover;
+}
+main .part5 h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  margin-left: 76.5%;
+  margin-top: 265px;
+}
+main .part5 p {
+  width: 270px;
+  font-size: 14px;
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 76.5%;
+  margin-top: 287px;
+  line-height: 20px;
+}
+main .part5 .angina {
+  position: absolute;
+  left: 76%;
+  margin-top: 540px;
+}
+main .part5 .angina .angles {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .part5 .angina .angles div sup {
+  color: white;
+}
+main .part6 {
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+main .part6 h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  margin-left: 567px;
+  margin-top: 100px;
+}
+main .part6 p {
+  font-size: 24px;
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 480px;
+  margin-top: 160px;
+}
+main .part6 div {
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 110px;
+}
+main .part6 div div {
+  height: 158px;
+  width: 1168px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .part7 {
+  width: 100%;
+  height: 600px;
+  background: url(./img/mount.png) center center/cover;
+}
+main .part7 h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  margin-left: 76.5%;
+  margin-top: 265px;
+}
+main .part7 p {
+  width: 241px;
+  font-size: 14px;
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 76.5%;
+  margin-top: 287px;
+  line-height: 20px;
+}
+main .part7 .angina {
+  position: absolute;
+  left: 76%;
+  margin-top: 540px;
+}
+main .part7 .angina .angles {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .part7 .angina .angles div sup {
+  color: white;
+}
+main .part8 {
+  width: 100%;
+  height: 414px;
+  background-color: black;
+}
+main .part8 h1 {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 410px;
+  font-weight: 400;
+}
+main .part8 h2 {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 520px;
+  font-weight: 400;
+}
+main .part8 p {
+  font-size: 24px;
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 180px;
+}
+main .part8 a {
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-top: 235px;
+  margin-left: 600px;
+  position: absolute;
+}
+main .part8 a div {
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
+  background: black;
+}
+main .footer {
+  width: 100%;
+  height: 660px;
+  background: black;
+}
+main .footer .aperture {
+  width: 128px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 90px;
+}
+main .footer .o1 {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  margin-left: 133px;
+  margin-top: 145px;
+}
+main .footer .ul1 {
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 820px;
+}
+main .footer .ul1 .li1 {
+  color: #C0C0C0;
+}
+main .footer .ul2 {
+  color: white;
+  font-size: 13px;
+  line-height: 30px;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 1035px;
+}
+main .footer .ul2 .li2 {
+  color: #C0C0C0;
+}
+main .footer .hr1 {
+  width: 80%;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 330px;
+}
+main .footer .hr2 {
+  width: 80%;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 480px;
+}
+main .footer h3 {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 370px;
+}
+main .footer .o2 {
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 130px;
+  font-size: 13px;
+  margin-top: 425px;
+}
+main .footer .o3 {
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 540px;
+  font-size: 13px;
+}
+main .footer form input {
+  width: 458px;
+  height: 52px;
+  background: white;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 380px;
+  margin-left: 755px;
+}
+main .footer form button {
+  width: 63px;
+  height: 30px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 4;
+  margin-top: 391px;
+  margin-left: 1140px;
+}
+main .footer .dvdv {
+  position: absolute;
+  margin-top: 535px;
+  margin-left: 1098px;
+}
+main .footer .dvdv .dvd {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=stil.css.map */
